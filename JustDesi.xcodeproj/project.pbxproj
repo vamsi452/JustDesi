@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D599DDFC763202B307FE2908 /* Pods_JustDesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA16CB2BA1C4EF883ED18D8 /* Pods_JustDesi.framework */; };
+		E023548B1FA042EA00D27B19 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */; };
+		E023548D1FA043B500D27B19 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */; };
+		E034C5721FA0407900D50F5B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E034C5701FA0407900D50F5B /* SWRevealViewController.m */; };
+		E05DC1CD21C72D7500115720 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E05DC1CC21C72D7500115720 /* GoogleService-Info.plist */; };
+		E05E582B1FB8D91E00B05D43 /* if_users-10_984119.png in Resources */ = {isa = PBXBuildFile; fileRef = E05E582A1FB8D91D00B05D43 /* if_users-10_984119.png */; };
+		E0820C771F9EDB45003D978A /* PhoneNumberVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0820C761F9EDB45003D978A /* PhoneNumberVerificationViewController.swift */; };
+		E0820C791F9EE357003D978A /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0820C781F9EE357003D978A /* VerificationCodeViewController.swift */; };
 		E0F0CCA41F95A3A400224C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F0CCA31F95A3A400224C1E /* AppDelegate.swift */; };
 		E0F0CCA61F95A3A400224C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F0CCA51F95A3A400224C1E /* ViewController.swift */; };
 		E0F0CCA91F95A3A400224C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F0CCA71F95A3A400224C1E /* Main.storyboard */; };
@@ -15,6 +23,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C37411D8D53E7625B9DBC6E /* Pods-JustDesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustDesi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA16CB2BA1C4EF883ED18D8 /* Pods_JustDesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustDesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF122BFC78DCA24CFED4AD43 /* Pods-JustDesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustDesi.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi.release.xcconfig"; sourceTree = "<group>"; };
+		E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		E034C56F1FA0407900D50F5B /* JustDesi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustDesi-Bridging-Header.h"; sourceTree = "<group>"; };
+		E034C5701FA0407900D50F5B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E034C5711FA0407900D50F5B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E05DC1CC21C72D7500115720 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "JustDesi/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E05E582A1FB8D91D00B05D43 /* if_users-10_984119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "if_users-10_984119.png"; sourceTree = "<group>"; };
+		E0820C751F9ECF86003D978A /* JustDesi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustDesi.entitlements; sourceTree = "<group>"; };
+		E0820C761F9EDB45003D978A /* PhoneNumberVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationViewController.swift; sourceTree = "<group>"; };
+		E0820C781F9EE357003D978A /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
 		E0F0CCA01F95A3A400224C1E /* JustDesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F0CCA31F95A3A400224C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F0CCA51F95A3A400224C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +50,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D599DDFC763202B307FE2908 /* Pods_JustDesi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A96766FF4C4E96708C9EDBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C37411D8D53E7625B9DBC6E /* Pods-JustDesi.debug.xcconfig */,
+				DF122BFC78DCA24CFED4AD43 /* Pods-JustDesi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6B7983FE7DFADC97B9641B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA16CB2BA1C4EF883ED18D8 /* Pods_JustDesi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0F0CC971F95A3A400224C1E = {
 			isa = PBXGroup;
 			children = (
+				E05DC1CC21C72D7500115720 /* GoogleService-Info.plist */,
 				E0F0CCA21F95A3A400224C1E /* JustDesi */,
 				E0F0CCA11F95A3A400224C1E /* Products */,
+				6A96766FF4C4E96708C9EDBD /* Pods */,
+				D6B7983FE7DFADC97B9641B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +96,21 @@
 		E0F0CCA21F95A3A400224C1E /* JustDesi */ = {
 			isa = PBXGroup;
 			children = (
+				E05E582A1FB8D91D00B05D43 /* if_users-10_984119.png */,
+				E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */,
+				E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */,
+				E034C5701FA0407900D50F5B /* SWRevealViewController.m */,
+				E034C5711FA0407900D50F5B /* SWRevealViewController.h */,
+				E0820C751F9ECF86003D978A /* JustDesi.entitlements */,
 				E0F0CCA31F95A3A400224C1E /* AppDelegate.swift */,
 				E0F0CCA51F95A3A400224C1E /* ViewController.swift */,
 				E0F0CCA71F95A3A400224C1E /* Main.storyboard */,
 				E0F0CCAA1F95A3A400224C1E /* Assets.xcassets */,
 				E0F0CCAC1F95A3A400224C1E /* LaunchScreen.storyboard */,
 				E0F0CCAF1F95A3A400224C1E /* Info.plist */,
+				E0820C761F9EDB45003D978A /* PhoneNumberVerificationViewController.swift */,
+				E0820C781F9EE357003D978A /* VerificationCodeViewController.swift */,
+				E034C56F1FA0407900D50F5B /* JustDesi-Bridging-Header.h */,
 			);
 			path = JustDesi;
 			sourceTree = "<group>";
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F0CCB21F95A3A400224C1E /* Build configuration list for PBXNativeTarget "JustDesi" */;
 			buildPhases = (
+				4CFEB530EB5ADB1B5BB2A1A9 /* [CP] Check Pods Manifest.lock */,
 				E0F0CC9C1F95A3A400224C1E /* Sources */,
 				E0F0CC9D1F95A3A400224C1E /* Frameworks */,
 				E0F0CC9E1F95A3A400224C1E /* Resources */,
+				FFF3DFFCF0DACE33942C61A3 /* [CP] Embed Pods Frameworks */,
+				D7D98278CCE203D15E5AFA37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +150,14 @@
 				TargetAttributes = {
 					E0F0CC9F1F95A3A400224C1E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 68FB7UPZ8A;
+						DevelopmentTeam = ALEDR4B67M;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,11 +186,120 @@
 			files = (
 				E0F0CCAE1F95A3A400224C1E /* LaunchScreen.storyboard in Resources */,
 				E0F0CCAB1F95A3A400224C1E /* Assets.xcassets in Resources */,
+				E05DC1CD21C72D7500115720 /* GoogleService-Info.plist in Resources */,
+				E05E582B1FB8D91E00B05D43 /* if_users-10_984119.png in Resources */,
 				E0F0CCA91F95A3A400224C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CFEB530EB5ADB1B5BB2A1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustDesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D98278CCE203D15E5AFA37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF3DFFCF0DACE33942C61A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0F0CC9C1F95A3A400224C1E /* Sources */ = {
@@ -138,7 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F0CCA61F95A3A400224C1E /* ViewController.swift in Sources */,
+				E023548D1FA043B500D27B19 /* NewsTableViewCell.swift in Sources */,
+				E0820C771F9EDB45003D978A /* PhoneNumberVerificationViewController.swift in Sources */,
+				E023548B1FA042EA00D27B19 /* NewsTableViewController.swift in Sources */,
+				E034C5721FA0407900D50F5B /* SWRevealViewController.m in Sources */,
 				E0F0CCA41F95A3A400224C1E /* AppDelegate.swift in Sources */,
+				E0820C791F9EE357003D978A /* VerificationCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,28 +435,37 @@
 		};
 		E0F0CCB31F95A3A400224C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C37411D8D53E7625B9DBC6E /* Pods-JustDesi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 68FB7UPZ8A;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JustDesi/JustDesi.entitlements;
+				DEVELOPMENT_TEAM = ALEDR4B67M;
 				INFOPLIST_FILE = JustDesi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vamsi.JustDesi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibrantplans.justdesi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JustDesi/JustDesi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E0F0CCB41F95A3A400224C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF122BFC78DCA24CFED4AD43 /* Pods-JustDesi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 68FB7UPZ8A;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JustDesi/JustDesi.entitlements;
+				DEVELOPMENT_TEAM = ALEDR4B67M;
 				INFOPLIST_FILE = JustDesi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vamsi.JustDesi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibrantplans.justdesi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JustDesi/JustDesi-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +489,7 @@
 				E0F0CCB41F95A3A400224C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
