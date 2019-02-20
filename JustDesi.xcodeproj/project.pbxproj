@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D599DDFC763202B307FE2908 /* Pods_JustDesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA16CB2BA1C4EF883ED18D8 /* Pods_JustDesi.framework */; };
 		E0059F6A221762E200E415B5 /* CreateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059F69221762E200E415B5 /* CreateUserProfileViewController.swift */; };
+		E0059F6F221CD17E00E415B5 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0059F6E221CD17E00E415B5 /* UserDetails.swift */; };
 		E023548B1FA042EA00D27B19 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */; };
 		E023548D1FA043B500D27B19 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */; };
 		E034C5721FA0407900D50F5B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E034C5701FA0407900D50F5B /* SWRevealViewController.m */; };
@@ -28,6 +29,7 @@
 		2DA16CB2BA1C4EF883ED18D8 /* Pods_JustDesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustDesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF122BFC78DCA24CFED4AD43 /* Pods-JustDesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustDesi.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustDesi/Pods-JustDesi.release.xcconfig"; sourceTree = "<group>"; };
 		E0059F69221762E200E415B5 /* CreateUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserProfileViewController.swift; sourceTree = "<group>"; };
+		E0059F6E221CD17E00E415B5 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		E034C56F1FA0407900D50F5B /* JustDesi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustDesi-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E0059F6D221CD12700E415B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0059F6E221CD17E00E415B5 /* UserDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E0F0CC971F95A3A400224C1E = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		E0F0CCA21F95A3A400224C1E /* JustDesi */ = {
 			isa = PBXGroup;
 			children = (
+				E0059F6D221CD12700E415B5 /* Model */,
 				E05E582A1FB8D91D00B05D43 /* if_users-10_984119.png */,
 				E023548C1FA043B500D27B19 /* NewsTableViewCell.swift */,
 				E023548A1FA042EA00D27B19 /* NewsTableViewController.swift */,
@@ -305,6 +316,7 @@
 			files = (
 				E0F0CCA61F95A3A400224C1E /* ViewController.swift in Sources */,
 				E023548D1FA043B500D27B19 /* NewsTableViewCell.swift in Sources */,
+				E0059F6F221CD17E00E415B5 /* UserDetails.swift in Sources */,
 				E0820C771F9EDB45003D978A /* PhoneNumberVerificationViewController.swift in Sources */,
 				E0059F6A221762E200E415B5 /* CreateUserProfileViewController.swift in Sources */,
 				E023548B1FA042EA00D27B19 /* NewsTableViewController.swift in Sources */,

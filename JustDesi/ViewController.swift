@@ -26,6 +26,13 @@ class ViewController: UIViewController,FUIAuthDelegate {
 
     @IBAction func loginAction(_ sender: Any) {
         
+       
+        
+    }
+    
+    
+    @IBAction func signUpAction(_ sender: Any) {
+        
         let authUI = FUIAuth.defaultAuthUI()
         guard authUI != nil else {
             return
@@ -43,7 +50,6 @@ class ViewController: UIViewController,FUIAuthDelegate {
         let authViewController = authUI?.authViewController()
         
         self.present((authViewController ?? nil)!, animated: true, completion: nil)
-        
     }
     
     func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
